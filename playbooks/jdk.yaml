@@ -1,6 +1,5 @@
 ---
 - name: JDK installed
-  hosts: centos_azure
   become: yes
   tasks:
   - name: JDK version 8installed
