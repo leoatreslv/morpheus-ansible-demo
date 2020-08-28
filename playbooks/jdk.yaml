@@ -1,5 +1,6 @@
 ---
 - name: JDK installed
+  hosts: all
   become: yes
   tasks:
   - name: JDK version 8installed
