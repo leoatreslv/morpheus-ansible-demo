@@ -1,0 +1,9 @@
+---
+- name: JDK installed
+  hosts: centos_azure
+  become: yes
+  tasks:
+  - name: JDK version 8installed
+    yum:
+      name: java-1.8.0-openjdk
+      state: latest
